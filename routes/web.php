@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'PagesController@index');
-Route::get('/form', 'PagesController@form');
-Route::post('/welcome', 'PagesController@welcome');
+Route::get('/form', 'AuthController@form');
+Route::post('/welcome', 'AuthController@welcome');
